@@ -1,0 +1,7 @@
+.Dictionary {
+  text-align: center;
+}
+.Dictionary button {
+  display: block;
+  margin: 10px auto;
+}
