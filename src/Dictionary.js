@@ -26,9 +26,6 @@ export default function Form() {
           autoFocus="on"
           onChange={updateWord}
         ></input>
-        <button type="submit" className="btn btn-outline-dark">
-          Search
-        </button>
       </form>
     </div>
   );
