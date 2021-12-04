@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
 import axios from "axios";
+import Word from "./Word.js";
 export default function Form() {
   let [word, setWord] = useState(null);
+  let [info, setInfo] = useState(null);
   function showData(response) {
     console.log(response.data[0]);
+    setInfo(response.data[0]);
   }
   function updateWord(event) {
     event.preventDefault();
@@ -27,6 +30,7 @@ export default function Form() {
           onChange={updateWord}
         ></input>
       </form>
+      <Word data={info} />
     </div>
   );
 }
