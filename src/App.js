@@ -8,7 +8,11 @@ export default function App() {
         <Dictionary />
         <footer className="App-footer">
           This code is{" "}
-          <a href="https://github.com/sofijaV/dictionary-app" target="_blank">
+          <a
+            href="https://github.com/sofijaV/dictionary-app"
+            target="_blank"
+            rel="noopener"
+          >
             open-sourced on GitHub{" "}
           </a>
           and coded by Sofija
