@@ -1,0 +1,7 @@
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  line-height: 0;
+}
