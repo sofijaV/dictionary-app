@@ -11,7 +11,7 @@ export default function App() {
           <a
             href="https://github.com/sofijaV/dictionary-app"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             open-sourced on GitHub{" "}
           </a>
