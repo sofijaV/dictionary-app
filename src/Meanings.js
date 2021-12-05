@@ -16,7 +16,7 @@ export default function Meanings(props) {
             {definition.synonyms.map(function (synonym, index) {
               return (
                 <ul>
-                  <li key={index}>{synonym}</li>
+                  <li key={index}>{synonym},</li>
                 </ul>
               );
             })}

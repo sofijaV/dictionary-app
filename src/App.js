@@ -6,6 +6,13 @@ export default function App() {
       <div className="container">
         <header className="App-header">Dictionary</header>
         <Dictionary />
+        <footer className="App-footer">
+          This code is{" "}
+          <a href="https://github.com/sofijaV/dictionary-app" target="_blank">
+            open-sourced on GitHub{" "}
+          </a>
+          and coded by Sofija
+        </footer>
       </div>
     </div>
   );
