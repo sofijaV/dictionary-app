@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
 import axios from "axios";
-import Word from "./Word.js";
+import Result from "./Result.js";
 export default function Form() {
   let [word, setWord] = useState(null);
   let [info, setInfo] = useState(null);
@@ -30,7 +30,7 @@ export default function Form() {
           onChange={updateWord}
         ></input>
       </form>
-      <Word data={info} />
+      <Result data={info} />
     </div>
   );
 }
