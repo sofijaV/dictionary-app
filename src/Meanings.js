@@ -7,16 +7,15 @@ export default function Meanings(props) {
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <strong>
-              <p className="mt-3">{definition.definition}</p>
-            </strong>
-            <em>
-              <p>{definition.example}</p>
-            </em>
+            <p className="mt-3">
+              <strong>{definition.definition}</strong>
+              <br />
+              <em>{definition.example}</em>
+            </p>
             {definition.synonyms.map(function (synonym, index) {
               return (
                 <ul>
-                  <li key={index}>{synonym},</li>
+                  <li key={index}>{synonym}</li>
                 </ul>
               );
             })}
