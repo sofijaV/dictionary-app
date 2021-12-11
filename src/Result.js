@@ -6,7 +6,15 @@ export default function Result(props) {
     return (
       <div className="Result">
         <h1>{props.data.word}</h1>
-        <h2>"{props.data.phonetics[0].text}"</h2>
+        <a
+          className="btn btn-light"
+          href={props.data.phonetics[0].audio}
+          target="_blank"
+          rel="noreferrer"
+        >
+          🔉
+        </a>
+        <h2>/{props.data.phonetics[0].text}/</h2>
         {props.data.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
