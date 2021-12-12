@@ -1,0 +1,15 @@
+.Photos {
+  display: block;
+  text-align: center;
+  margin: 0 30px;
+}
+.Photos img {
+  border: 10px solid white;
+  margin: 5px 10px;
+  width: 200px;
+}
+@media (max-width: 767px) {
+  .Photos img {
+    width: 100px;
+  }
+}

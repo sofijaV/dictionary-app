@@ -1,13 +1,15 @@
 .App {
   background: #bbe4e9;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .App-header,
 .App-footer {
   text-align: center;
   margin: 0px auto;
 }
-.App img {
-  width: 200px;
+.App-header img {
+  width: 150px;
 }
 .App-footer a {
   text-decoration: none;
@@ -15,4 +17,9 @@
 }
 .App-footer a:hover {
   color: #4e4e4e;
+}
+@media (max-width: 767px) {
+  .App-header img {
+    width: 100px;
+  }
 }

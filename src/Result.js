@@ -1,7 +1,7 @@
 import React from "react";
 import Meanings from "./Meanings.js";
 import "./Result.css";
-
+import Photos from "./Photos.js";
 export default function Result(props) {
   if (props.data) {
     return (
@@ -17,6 +17,7 @@ export default function Result(props) {
           </a>
           <span className="text">/{props.data.phonetics[0].text}/</span>
         </section>
+        <Photos photos={props.photos} />
         {props.data.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
