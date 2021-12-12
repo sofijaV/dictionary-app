@@ -9,6 +9,8 @@
   border-radius: 5px;
   padding: 10px;
   margin-right: 10px;
+  transition: all 200ms ease-in-out;
+  background: #f0f0f2;
 }
 .Result a:hover {
   background: #4e4e4e;

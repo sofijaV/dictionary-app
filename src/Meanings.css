@@ -2,6 +2,16 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
+.Meanings .definition {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.Meanings .example {
+  font-style: italic;
+  opacity: 0.8;
+  margin-bottom: 15px;
+  line-height: 0.8;
+}
 
 .Meanings ul {
   margin: 10px 10px 10px 0px;
@@ -12,7 +22,6 @@
   list-style-type: none;
   padding: 15px;
   line-height: 0;
-
   background-color: #f0f0f2;
   border: 1px solid white;
   border-radius: 8px;

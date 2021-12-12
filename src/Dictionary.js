@@ -22,7 +22,7 @@ export default function Form() {
   return (
     <div className="Dictionary">
       <section>
-        <h1>What word do you wanna look up...?</h1>
+        <h1>What word you wanna look up?</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="search"
@@ -30,6 +30,9 @@ export default function Form() {
             autoFocus="on"
             onChange={updateWord}
           ></input>
+          <button type="search" className="btn btn-light">
+            <i class="fas fa-search"></i>
+          </button>
         </form>
         <div className="hint">Suggested words: sunset, forest, yoga</div>
       </section>
