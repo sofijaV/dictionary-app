@@ -8,7 +8,7 @@ export default function App() {
         <header className="App-header">
           <img src={reading} className="img-fluid" alt="woman reading"></img>
         </header>
-        <Dictionary />
+        <Dictionary defaultWord="plant" />
         <footer className="App-footer">
           This code is{" "}
           <a
