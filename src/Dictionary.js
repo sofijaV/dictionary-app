@@ -24,12 +24,7 @@ export default function Form() {
       <section>
         <h1>What word you wanna look up?</h1>
         <form onSubmit={handleSubmit}>
-          <input
-            type="search"
-            placeholder="Type any word.."
-            autoFocus="on"
-            onChange={updateWord}
-          ></input>
+          <input type="search" autoFocus="on" onChange={updateWord}></input>
           <button type="search" className="btn btn-light">
             <i className="fas fa-search"></i>
           </button>
