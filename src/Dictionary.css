@@ -2,8 +2,9 @@
   background: white;
   padding: 20px;
   border-radius: 10px;
-  margin: 30px;
+  margin: 30px auto;
   color: #4e4e4e;
+  max-width: 800px;
 }
 .Dictionary h1 {
   font-size: 25px;
