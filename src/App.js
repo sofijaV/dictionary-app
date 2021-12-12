@@ -16,9 +16,12 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on GitHub{" "}
-          </a>
-          and coded by Sofija
+            open-sourced on GitHub <i class="fab fa-github"></i>
+          </a>{" "}
+          <div>
+            and coded <small> (with a lot of love)</small> by Sofija{" "}
+            <i className="fas fa-heart"></i>
+          </div>
         </footer>
       </div>
     </div>
