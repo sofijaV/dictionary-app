@@ -19,8 +19,14 @@ export default function App() {
             open-sourced on GitHub <i className="fab fa-github"></i>
           </a>{" "}
           <div>
-            and coded <small> (with a lot of love)</small> by Sofija{" "}
-            <i className="fas fa-heart"></i>
+            and coded <small> (with a lot of love) </small>
+            <a
+              href="https://sleepy-euler-fb849e.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              by Sofija <i className="fas fa-heart"></i>
+            </a>{" "}
           </div>
         </footer>
       </div>
