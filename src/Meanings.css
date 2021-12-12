@@ -5,12 +5,13 @@
 .Meanings .definition {
   font-weight: bold;
   margin: 10px 0;
+  line-height: 1.2;
 }
 .Meanings .example {
   font-style: italic;
   opacity: 0.8;
   margin-bottom: 15px;
-  line-height: 0.8;
+  line-height: 1;
 }
 
 .Meanings ul {

@@ -31,7 +31,7 @@ export default function Form() {
             onChange={updateWord}
           ></input>
           <button type="search" className="btn btn-light">
-            <i class="fas fa-search"></i>
+            <i className="fas fa-search"></i>
           </button>
         </form>
         <div className="hint">Suggested words: sunset, forest, yoga</div>
