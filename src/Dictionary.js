@@ -12,7 +12,6 @@ export default function Dictionary(props) {
     setInfo(response.data[0]);
   }
   function showPhotos(response) {
-    console.log(response.data.photos);
     setPhotos(response.data.photos);
   }
   function updateWord(event) {
