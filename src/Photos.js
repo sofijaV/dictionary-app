@@ -10,7 +10,7 @@ export default function Photos(props) {
               key={index}
               src={photo.src.tiny}
               alt="see what you have looked up"
-              className="img-fluid searched"
+              className="img-fluid"
             />
           );
         })}
