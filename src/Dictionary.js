@@ -21,15 +21,18 @@ export default function Form() {
   }
   return (
     <div className="Dictionary">
-      <h1>What do you wanna look up...?</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="search"
-          placeholder="Type any word.."
-          autoFocus="on"
-          onChange={updateWord}
-        ></input>
-      </form>
+      <section>
+        <h1>What word do you wanna look up...?</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="search"
+            placeholder="Type any word.."
+            autoFocus="on"
+            onChange={updateWord}
+          ></input>
+        </form>
+        <div className="hint">Suggested words: sunset, forest, yoga</div>
+      </section>
       <Result data={info} />
     </div>
   );

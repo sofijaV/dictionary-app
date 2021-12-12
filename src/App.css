@@ -1,5 +1,18 @@
+.App {
+  background: #bbe4e9;
+}
 .App-header,
 .App-footer {
   text-align: center;
-  margin: 20px auto;
+  margin: 0px auto;
+}
+.App img {
+  width: 200px;
+}
+.App-footer a {
+  text-decoration: none;
+  color: #ff6582;
+}
+.App-footer a:hover {
+  color: #4e4e4e;
 }
