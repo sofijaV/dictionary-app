@@ -16,7 +16,7 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on GitHub <i className="fab fa-github"></i>
+            open-source on GitHub <i className="fab fa-github"></i>
           </a>{" "}
           <div>
             and coded <small> (with a lot of love) </small>
